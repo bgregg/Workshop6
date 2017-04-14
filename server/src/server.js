@@ -37,6 +37,7 @@ function getFeedItemSync(feedItemId) {
  * Get the feed data for a particular user.
  */
 function getFeedData(user) {
+  var xhr = new XMLHttpRequest();
   var userData = readDocument('users', user);
   var feedData = readDocument('feeds', userData.feed);
   // While map takes a callback, it is synchronous,
