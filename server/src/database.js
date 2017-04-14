@@ -1,3 +1,6 @@
+
+//intial data already moved over from client/build/database.js
+
 // Data goes here.
 var initialData = {
   // The "user" collection. Contains all of the users in our Facebook system.
